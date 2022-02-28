@@ -97,14 +97,6 @@ void showWordsOf()
 
 int main()
 {
-    /*
-        IMPORTANTE PRESTAR ATENCIÓN AL PASO POR REFERENCIA
-        EN LAS FUNCIONES showQuotesOf y closeFile
-        NO SE PUEDE INCIALIZAR UN OBJETO ifstream CON OTRO
-        Y LUEGO PASARLO POR VALOR PORQUE ifstream TIENE
-        UN CONSTRUCTOR COPIA ELIMINADO, POR ESO NO SE PUEDE COPIAR
-    */
-
     showWordsOf();
 
     return 0;
